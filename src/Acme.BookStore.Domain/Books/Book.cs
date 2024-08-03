@@ -16,4 +16,9 @@ public class Book: AuditedAggregateRoot<Guid>
     public DateTime PublishDate { get; set; }
 
     public float Price { get; set; }
+
+
+  
+    public List<BookVersion> BookVersion { get; set; }
+
 }
